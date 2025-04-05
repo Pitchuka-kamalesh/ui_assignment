@@ -1,1 +1,102 @@
 
+2025-04-05 18:54:49 [main] INFO  DemoQaTestCases.setUp - === BeforeClass: setUp ===
+2025-04-05 18:55:13 [main] INFO  LogUtils.info - TestUtils initialized with timeout: 10 seconds
+2025-04-05 18:55:13 [main] INFO  LogUtils.info - TestUtils initialized with timeout: 10 seconds
+2025-04-05 18:55:13 [main] INFO  LogUtils.info - TestUtils initialized with timeout: 10 seconds
+2025-04-05 18:55:13 [main] INFO  LogUtils.info - BooksPage initialized
+2025-04-05 18:55:13 [main] INFO  DemoQaTestCases.setUp - Initialized all page objects and navigated to login page.
+2025-04-05 18:55:13 [main] INFO  DemoQaTestCases.uiAssignment - === Test: uiAssignment ===
+2025-04-05 18:55:13 [main] INFO  LogUtils.info - Attempting login with username: : test@test
+2025-04-05 18:55:13 [main] INFO  LogUtils.info - Sending keys to element: test@test
+2025-04-05 18:55:14 [main] INFO  LogUtils.info - Sending keys to element: Test@Test1
+2025-04-05 18:55:14 [main] INFO  LogUtils.info - Login submitted
+2025-04-05 18:55:14 [main] INFO  DemoQaTestCases.uiAssignment - Login completed.
+2025-04-05 18:55:17 [main] INFO  LogUtils.info - Text retrieved: test@test
+2025-04-05 18:55:17 [main] INFO  LogUtils.info - Fetched username from profile page: test@test
+2025-04-05 18:55:17 [main] INFO  DemoQaTestCases.uiAssignment - Username validated successfully.
+2025-04-05 18:55:17 [main] INFO  LogUtils.info - Element is present: true
+2025-04-05 18:55:17 [main] INFO  LogUtils.info - Logout button present: true
+2025-04-05 18:55:17 [main] INFO  DemoQaTestCases.uiAssignment - Logout button is present.
+2025-04-05 18:55:17 [main] INFO  LogUtils.info - Attempting safe click on element: [[FirefoxDriver: firefox on windows (d9392b20-3b2b-4931-8cce-1647ab0a7718)] -> xpath: //button[@id = 'gotoStore']]
+2025-04-05 18:55:17 [main] WARN  LogUtils.warn - Click intercepted, scrolling into view and retrying
+org.openqa.selenium.ElementClickInterceptedException: Element <button id="gotoStore" class="btn btn-primary" type="button"> is not clickable at point (579,561) because another element <iframe id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" name="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0"> obscures it
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d9392b20-3b2b-4931-8cce-1647ab0a7718, clickElement {id=3d826ff8-771b-4e5f-bd98-09f8f666f964}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0, moz:accessibilityChecks: false, moz:buildID: 20250327043313, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3844, moz:profile: C:\Users\kamal\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (d9392b20-3b2b-4931-8cce-1647ab0a7718)] -> xpath: //button[@id = 'gotoStore']]
+Session ID: d9392b20-3b2b-4931-8cce-1647ab0a7718
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200) ~[selenium-remote-driver-4.16.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133) ~[selenium-remote-driver-4.16.1.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52) ~[selenium-remote-driver-4.16.1.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191) ~[selenium-remote-driver-4.16.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200) ~[selenium-remote-driver-4.16.1.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175) ~[selenium-remote-driver-4.16.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523) ~[selenium-remote-driver-4.16.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224) ~[selenium-remote-driver-4.16.1.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77) ~[selenium-remote-driver-4.16.1.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.16.1.jar:?]
+	at com.sun.proxy.$Proxy24.click(Unknown Source) ~[?:?]
+	at org.finacplus.utils.TestUtils.safeClick(TestUtils.java:48) ~[classes/:?]
+	at org.finacplus.pages.ProfilePage.goToStore(ProfilePage.java:28) ~[classes/:?]
+	at org.finacplus.testcases.DemoQaTestCases.uiAssignment(DemoQaTestCases.java:47) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) ~[testng-7.7.1.jar:7.7.1]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.7.1.jar:7.7.1]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestRunner.run(TestRunner.java:602) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.7.1.jar:7.7.1]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.runSuites(TestNG.java:1099) [testng-7.7.1.jar:7.7.1]
+	at org.testng.TestNG.run(TestNG.java:1067) [testng-7.7.1.jar:7.7.1]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308) [surefire-testng-3.3.0.jar:3.3.0]
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71) [surefire-testng-3.3.0.jar:3.3.0]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113) [surefire-testng-3.3.0.jar:3.3.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) [surefire-booter-3.3.0.jar:3.3.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) [surefire-booter-3.3.0.jar:3.3.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) [surefire-booter-3.3.0.jar:3.3.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) [surefire-booter-3.3.0.jar:3.3.0]
+2025-04-05 18:55:17 [main] INFO  LogUtils.info - Element clicked successfully after scroll
+2025-04-05 18:55:17 [main] INFO  DemoQaTestCases.uiAssignment - Navigated to Book Store.
+2025-04-05 18:55:17 [main] INFO  LogUtils.info - Searching for book: Learning JavaScript Design Patterns
+2025-04-05 18:55:17 [main] INFO  LogUtils.info - Sending keys to element: Learning JavaScript Design Patterns
+2025-04-05 18:55:18 [main] INFO  DemoQaTestCases.uiAssignment - Book searched successfully.
+2025-04-05 18:55:18 [main] INFO  LogUtils.info - Text retrieved: Learning JavaScript Design Patterns
+2025-04-05 18:55:18 [main] INFO  LogUtils.info - Book title from search result: Learning JavaScript Design Patterns
+2025-04-05 18:55:18 [main] INFO  DemoQaTestCases.uiAssignment - Book title validated.
+2025-04-05 18:55:18 [main] INFO  LogUtils.info - Extracting search results and writing to output.txt
+2025-04-05 18:55:18 [main] INFO  LogUtils.info - Book found: Learning JavaScript Design Patterns
+Addy Osmani
+O'Reilly Media
+2025-04-05 18:55:18 [main] INFO  FileUtils.writeToFile - Writing to file: output.txt
+2025-04-05 18:55:18 [main] INFO  DemoQaTestCases.uiAssignment - Fetched book details.
+2025-04-05 18:55:18 [main] INFO  LogUtils.info - Clicking Logout button on BooksPage
+2025-04-05 18:55:18 [main] INFO  LogUtils.info - Attempting safe click on element: [[FirefoxDriver: firefox on windows (d9392b20-3b2b-4931-8cce-1647ab0a7718)] -> xpath: //button[@id='submit']]
+2025-04-05 18:55:18 [main] INFO  DemoQaTestCases.uiAssignment - Logged out successfully.
+2025-04-05 18:55:18 [main] INFO  DemoQaTestCases.tearDown - === AfterClass: tearDown ===
+2025-04-05 18:55:21 [main] INFO  DemoQaTestCases.tearDown - Browser closed.
