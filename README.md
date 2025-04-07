@@ -4,11 +4,10 @@
 ### Dependencies
 
 - **Java SDK**: 11
-- **Selenium**: 3.14
-- **TestNG**: 7.7.0
-- **WebDriverManager**: 5.6.3
+- **Selenium**: 4.1.1
+- **TestNG**: 7.7.1
 - **Maven**: 4.0.0
-- **Surifiy**: 2.22.2
+- **log4J**: 2.20.0
 
 ### Steps to Set Up and Run the Project
 
