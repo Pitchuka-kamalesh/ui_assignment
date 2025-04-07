@@ -4,7 +4,7 @@
 ### Dependencies
 
 - **Java SDK**: 11
-- **Selenium**: 4.1.1
+- **Selenium**: 4.16.1
 - **TestNG**: 7.7.1
 - **Maven**: 4.0.0
 - **log4J**: 2.20.0
